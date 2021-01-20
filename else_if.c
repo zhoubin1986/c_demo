@@ -7,7 +7,7 @@ void main()
 	scanf("%d",&x);
 	if(x < 6)
 		printf("x < 6\n");
-	else if(x < 15)
+	else if(x < 15)  //else if(x < 15) != if(x < 15)
 		printf("6 <= x < 15\n");
 	else
 		printf("x >= 15\n");
