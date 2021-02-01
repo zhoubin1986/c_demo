@@ -9,7 +9,7 @@ void user_login()
 		printf("please input password:");	
 		gets(password);
 	}
-	if(i == 3)
+	if(i == 4)  //i = 2 -->  i++ = 3
 	{
 		printf("err\n");
 		return;
@@ -22,5 +22,5 @@ void user_login()
 
 void main()
 {
-	void user_login();	
+	user_login();   //void user_login(); err	
 }
