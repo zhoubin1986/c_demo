@@ -13,8 +13,10 @@ void main()
 	while((a % divisor) != 0 || (b % divisor) != 0)
 		divisor--;	
 	printf("max_divisor = %d\n",divisor);
-	multiple = a;	
+/*	multiple = a;	
 	while(multiple % a != 0 || multiple % b != 0)
 		multiple++;	
+*/
+	multiple = (a * b) / divisor;
 	printf("min_multiple = %d\n",multiple);
 }
