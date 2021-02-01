@@ -22,5 +22,5 @@ void user_login()
 
 void main()
 {
-	void user_login();	
+	user_login();	
 }
