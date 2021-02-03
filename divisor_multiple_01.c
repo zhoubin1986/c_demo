@@ -9,15 +9,13 @@ void main()
 		scanf("%d%d",&a,&b);
 	}while(a <= 0 || b <= 0 || a > b);
 	m = a * b;
-	/*
 	do
 	{
 		r = b % a;
 		b = a;
 		a = r;
 	}while(r != 0);
-	*/
-	for()
+	
 	printf("max_divisor = %d\n",a);
 	printf("min_multiple = %d\n",m/a);	//not a*b/r
 }
