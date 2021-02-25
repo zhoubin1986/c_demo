@@ -3,9 +3,12 @@
 /**
 **int --> ''
 **/
-void covert(int x)
+void convert(int x)
 {
-	
+	int i;
+	if((i = x/10) != 0)	
+		convert(i);
+	putchar(x%10 + '0');
 }
 
 
@@ -20,6 +23,7 @@ void main()
 		putchar('-');
 		number = -number;	
 	}
-	covert
+	convert(number);
+	putchar('\n');
 }
 
